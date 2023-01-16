@@ -1,0 +1,28 @@
+
+UserScheam:
+{
+    "name": { type: String },
+    "gender": { type: String },
+    "email": { type: String },
+    "password": { type: String }
+}
+
+PostSchema:
+{
+    "title": { type: String },
+    "body": { type: String },
+    "device": { type: String }
+}
+
+Routes:
+Authentication Routes:
+/users/register ==> To register a new user.
+
+/users/login ==> For logging in generating a token
+
+
+/posts ==> This will show the posts of logged in users.
+
+/posts/update ==> The logged in user can update his/her posts.
+
+/posts/delete ==> The logged in user can delete his/her posts.
